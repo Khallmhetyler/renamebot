@@ -45,10 +45,10 @@ async def set_caption(bot, update):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Show Current Caption', callback_data = "shw_caption")      
+                    InlineKeyboardButton('✅ Show Current Caption', callback_data = "shw_caption")      
                 ],
                 [
-                    InlineKeyboardButton('Delete Caption', callback_data = "d_caption")
+                    InlineKeyboardButton('❌ Delete Caption', callback_data = "d_caption")
                 ]
             ]
         ) 
