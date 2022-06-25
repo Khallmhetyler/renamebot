@@ -84,13 +84,13 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @Faris_TG")
+               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @KhallMheTyler")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**Due To The Huge Traffic, Only Channel Members Can Use This Bot. That Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚡ Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('💬 Support Group', url='https://t.me/+jxREjGmBRAY3Y2I0'),
+                    InlineKeyboardButton('✏️ Feedback', url='https://t.me/KhallMheTyler')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('❇️ Update Channel', url='https://t.me/+_si3f3JsGdwyMjI0'),
+                    InlineKeyboardButton('👨‍💻 Owner', url='https://t.me/KhallMheTyler')
                 ]
             ]
         ),
@@ -125,8 +125,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
@@ -138,8 +138,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
@@ -155,8 +155,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton("Delete Caption", callback_data = "d_caption")
                 ],
                 [
-                    InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton('🔒 Close', callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
+                    InlineKeyboardButton('🔐 Close', callback_data = "close")
                 ]
             ]
         )
@@ -168,8 +168,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
@@ -197,7 +197,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('💠About', callback_data = "about")
                 ]
             ]
         )
@@ -216,8 +216,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ccaption"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ccaption"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
@@ -229,8 +229,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
@@ -246,8 +246,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "ccaption"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton('🔙 Back', callback_data = "ccaption"),
+                    InlineKeyboardButton("🔐 Close", callback_data = "close")
                 ]
             ]
         )
